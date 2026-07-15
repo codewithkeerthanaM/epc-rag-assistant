@@ -1,0 +1,69 @@
+# ==========================
+# Python
+# ==========================
+venv/
+venv314/
+ragas_env/
+ragas_final_env/
+.venv/
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Frontend
+# ==========================
+frontend/node_modules/
+frontend/dist/
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Data (keep locally)
+# ==========================
+data/raw/*
+data/processed/*
+data/chunks/*
+data/extracted/*
+data/vector_store/*
+data/evaluation/*
+data/temp/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/chunks/.gitkeep
+!data/extracted/.gitkeep
+!data/vector_store/.gitkeep
+!data/evaluation/.gitkeep
+!data/temp/.gitkeep
+
+# Large generated files
+*.npy
+*.bin
+chunk_store.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Media
+*.mp4
+
+# Temporary files
+structure.txt
