@@ -1,4 +1,4 @@
-﻿# 🚀 EPC RAG Assistant – Domain-Specific AI Assistant for Engineering, Procurement and Construction (EPC)
+﻿# EPC RAG Assistant – Domain-Specific AI Assistant for Engineering, Procurement and Construction (EPC)
 
 <p align="center">
 
@@ -13,7 +13,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 The **EPC RAG Assistant** is a domain-specific AI assistant designed for the **Engineering, Procurement, and Construction (EPC)** industry. It leverages **Retrieval-Augmented Generation (RAG)** to provide accurate, context-aware, and evidence-backed responses from EPC documentation.
 
@@ -23,7 +23,7 @@ This project was developed during an **AI Internship at PI Labs** and is current
 
 ---
 
-# 🎯 Objectives
+# Objectives
 
 - Build an intelligent AI assistant for EPC documents.
 - Improve information retrieval using semantic search.
@@ -34,27 +34,27 @@ This project was developed during an **AI Internship at PI Labs** and is current
 
 ---
 
-# ✨ Key Features
+# Key Features
 
-- 📄 PDF document ingestion
-- 🧩 Intelligent text chunking
-- 🧠 Semantic embeddings using Sentence Transformers
-- 🔍 FAISS vector database for semantic retrieval
-- 🎯 Cross-Encoder for re-ranking
-- 🤖 Ollama-powered answer generation
-- 💬 Multi-turn conversation memory
-- 📚 Evidence-backed responses with retrieved sources
-- 📊 Retrieval score visualization
-- 🖼️ OCR support for scanned PDFs
-- 📑 Table extraction
-- 🖼️ Image extraction
-- 📈 Metadata extraction
-- 🌐 FastAPI backend
-- ⚛️ React-based user interface
+- PDF document ingestion
+- Intelligent text chunking
+- Semantic embeddings using Sentence Transformers
+- FAISS vector database for semantic retrieval
+- Cross-Encoder for re-ranking
+- Ollama-powered answer generation
+- Multi-turn conversation memory
+- Evidence-backed responses with retrieved sources
+- Retrieval score visualization
+- OCR support for scanned PDFs
+- Table extraction
+- Image extraction
+- Metadata extraction
+- FastAPI backend
+- React-based user interface
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 ```text
                         User
@@ -93,7 +93,7 @@ This project was developed during an **AI Internship at PI Labs** and is current
 
 ---
 
-# 🛠️ Technology Stack
+# Technology Stack
 
 ### Programming Languages
 
@@ -142,7 +142,7 @@ This project was developed during an **AI Internship at PI Labs** and is current
 
 ---
 
-# 📁 Data Preparation
+# Data Preparation
 
 To build the EPC knowledge base, follow these steps:
 
@@ -204,9 +204,9 @@ npm run dev
 
 The EPC RAG Assistant is now ready to answer engineering, procurement, and construction-related questions.
 
-# 📸 Application Screenshots
+# Application Screenshots
 
-## 🏗️ System Architecture
+## System Architecture
 
 The following architecture illustrates the complete workflow of the EPC RAG Assistant, from EPC document ingestion to response generation using Retrieval-Augmented Generation (RAG).
 
@@ -216,7 +216,7 @@ The following architecture illustrates the complete workflow of the EPC RAG Assi
 
 ---
 
-## 💬 Chat Interface
+## Chat Interface
 
 The React-based interface allows users to ask Engineering, Procurement, and Construction (EPC) related questions using natural language. The assistant retrieves relevant document chunks before generating an evidence-grounded response.
 
@@ -226,7 +226,7 @@ The React-based interface allows users to ask Engineering, Procurement, and Cons
 
 ---
 
-## 📄 AI Response with Retrieved Sources
+## AI Response with Retrieved Sources
 
 Each generated response is accompanied by supporting source documents, retrieved chunks, and retrieval information, enabling users to verify the generated answer.
 
@@ -236,7 +236,7 @@ Each generated response is accompanied by supporting source documents, retrieved
 
 ---
 
-## ⚙️ Backend Execution
+## Backend Execution
 
 The FastAPI backend initializes the embedding model, FAISS vector database, and Cross-Encoder re-ranker before serving user queries.
 
@@ -246,15 +246,15 @@ The FastAPI backend initializes the embedding model, FAISS vector database, and 
 
 ---
 
-# 🎥 Project Demonstration
+# Project Demonstration
 
 A demonstration video showcasing the complete workflow of the EPC RAG Assistant is included in this repository.
 
-📹 **Demo Video:** `docs/Video Project.mp4`
+ **Demo Video:** `docs/Video Project.mp4`
 
 ---
 
-# 📊 System Evaluation
+# System Evaluation
 
 The EPC RAG Assistant was evaluated through live interaction using domain-specific Engineering, Procurement, and Construction queries.
 
@@ -274,7 +274,7 @@ The system provides retrieval scores together with supporting documents, allowin
 
 ---
 
-# 🔬 Research Contribution
+# Research Contribution
 
 This project is currently being extended into a research paper focusing on **domain-specific Retrieval-Augmented Generation (RAG)** for Engineering, Procurement, and Construction (EPC).
 
@@ -291,43 +291,43 @@ Current research directions include:
 
 ---
 
-# 🚀 Future Enhancements
+# Future Enhancements
 
 The EPC RAG Assistant provides a strong foundation for AI-powered document intelligence. Future work will focus on improving retrieval quality, scalability, usability, and evaluation.
 
 Planned enhancements include:
 
-- 📊 Automated evaluation using **RAGAS**
-- 🔍 Hybrid Retrieval (Dense + BM25)
-- 🧠 Knowledge Graph integration
-- 📄 Multi-document reasoning
-- 📑 Citation-aware response generation
-- 🌐 Cloud deployment
-- 🐳 Docker containerization
-- 👤 User authentication
-- 📂 Multi-user knowledge base management
-- 🖼️ Advanced OCR and multimodal document understanding
-- 📈 Analytics dashboard for system monitoring
+- Automated evaluation using **RAGAS**
+- Hybrid Retrieval (Dense + BM25)
+- Knowledge Graph integration
+- Multi-document reasoning
+- Citation-aware response generation
+- Cloud deployment
+- Docker containerization
+- User authentication
+- Multi-user knowledge base management
+- Advanced OCR and multimodal document understanding
+- Analytics dashboard for system monitoring
 
 ---
 
-# 🌟 Project Highlights
+# Project Highlights
 
-- 🚀 Domain-Specific AI Assistant for EPC
-- 📄 Retrieval-Augmented Generation (RAG)
-- 🔍 Semantic Search using FAISS
-- 🤖 Ollama-powered Large Language Model
-- ⚡ FastAPI Backend
-- ⚛️ React Frontend
-- 🧠 Cross-Encoder Re-ranking
-- 📑 Intelligent Document Processing
-- 📚 Evidence-backed Responses
-- 📊 Live Retrieval Evaluation
-- 🔬 Research Paper in Progress
+- Domain-Specific AI Assistant for EPC
+- Retrieval-Augmented Generation (RAG)
+- Semantic Search using FAISS
+- Ollama-powered Large Language Model
+- FastAPI Backend
+- React Frontend
+- Cross-Encoder Re-ranking
+- Intelligent Document Processing
+- Evidence-backed Responses
+- Live Retrieval Evaluation
+- Research Paper in Progress
 
 ---
 
-# 👥 Contributors
+# Contributors
 
 **Developed during the AI Internship at PI Labs**
 
@@ -337,7 +337,7 @@ Planned enhancements include:
 
 ---
 
-# 🙏 Acknowledgements
+# Acknowledgements
 
 We sincerely thank **PI Labs** for providing the opportunity, mentorship, and resources to work on this project during our AI Internship.
 
@@ -355,7 +355,7 @@ Their contributions made the development of this project possible.
 
 ---
 
-# 📜 License
+# License
 
 This project is licensed under the **MIT License**.
 
@@ -363,9 +363,9 @@ See the **LICENSE** file for more information.
 
 ---
 
-# ⭐ Support
+# Support
 
-If you found this project useful, consider giving this repository a ⭐ on GitHub.
+If you found this project useful, consider giving this repository a on GitHub.
 
 Your support encourages future development and improvements.
 
@@ -373,7 +373,7 @@ Your support encourages future development and improvements.
 
 <p align="center">
 
-## 🚀 Built with Passion for AI, Engineering & Innovation
+##  Built with Passion for AI, Engineering & Innovation
 
 ### EPC RAG Assistant Team
 
